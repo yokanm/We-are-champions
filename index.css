@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:#1b1924;
+    color: #ffffff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 340px;
+    margin: 51px auto;
+}
+img{
+    width: 90px;  
+}
+h1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 18px 0;
+}
+
+textarea {
+    width: 317px;
+    height: 118px;
+    background: #444059;
+    color: gold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: 'Inter' sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    
+}
+/* STRETCH GOAL Till further
+.from-to-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px auto;
+    gap: 9px;    
+}
+
+
+input{
+    width: 100%;
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    color:  #8f8f8f;
+    
+}
+ */
+
+#publish-btn{
+    width: 334px;
+    height: 61px;
+    background: #28a9f1;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+#publish-btn:hover {
+    background-color: silver;
+    cursor: pointer;
+}
+
+#publish-btn:active {
+    background-color: #0e4765;
+}
+#footer-title{
+    width: 160px;
+    height: 20px;
+    color: #ffffff;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 19px;
+}
+ul {
+     list-style: none;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     flex-grow: 1;
+     flex-wrap: wrap;
+     gap: 13px;
+     
+    
+ }
+
+li {
+     background: #ffffff;
+     color:#1b1924;
+     font-family: 'inter';
+     font-style: normal;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 17px;
+     border-radius: 4px;
+     padding: 12px;
+ }
+ 
+ul li:hover{
+    background-color: gold;
+    cursor: pointer;
+}
